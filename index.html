@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nizami</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ------------------------ HEADER -------------------------->
+    <nav
+      class="navbar navbar-expand-lg primary-bg-color py-4"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trending">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Top Movies</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="" class="login text-white">
+          <i class="fa-regular fa-user me-2"></i>
+          Login
+        </a>
+      </div>
+    </nav>
+
+    <!-- ------------------------ HOME SECTION -------------------------->
+    <section id="home" class="section-home">
+      <div
+        class="container h-100 d-flex flex-column gap-4 justify-content-center align-items-center"
+      >
+        <h1 class="text-white z-3">Enjoy On Watching Now</h1>
+        <a href="" class="btn btn-success rounded-3 z-3 fs-4 p-2 px-4"
+          >Watch Now</a
+        >
+      </div>
+    </section>
+
+    <!-- ------------------------ TRENDING SECTION -------------------------->
+    <section id="trending" class="section-most-popular primary-bg-color py-5">
+      <div class="container">
+        <h2 class="text-white mb-5">Most Popular</h2>
+        <div class="row g-3 border-bottom pb-5">
+          <div class="owl-carousel owl-theme"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ TOP MOVIES SECTION -------------------------->
+    <section id="top" class="section-top-movies primary-bg-color pb-5">
+      <div class="container">
+        <h2 class="text-white mb-5">Top Movies</h2>
+        <div
+          class="row row-gap-5 justify-content-center justify-content-sm-start"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ------------------------ FOOTER -------------------------->
+    <footer class="footer py-5">
+      <div class="container w-75">
+        <div class="row border-bottom pb-5 row-gap-5">
+          <div class="col-md-3">
+            <div class="footer-column d-flex flex-column gap-2 text-white">
+              <h3 class="mb-5 h6">PROFILE</h3>
+              <p class="opacity-75">FAQ's</p>
+              <p class="opacity-75">Pricing plans</p>
+              <p class="opacity-75">Order tracking</p>
+              <p class="opacity-75">Returns</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column d-flex flex-column gap-2 text-white">
+              <h3 class="mb-5 h6">Recent Posts</h3>
+              <p class="opacity-75">Touch of uniqueness</p>
+              <p class="opacity-75">Offices you won't forget</p>
+              <p class="opacity-75">Cicilan</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column d-flex flex-column gap-2 text-white">
+              <h3 class="mb-5 h6">CUSTOMER</h3>
+              <p class="opacity-75">Help & contact us</p>
+              <p class="opacity-75">Return</p>
+              <p class="opacity-75">Online stores</p>
+              <p class="opacity-75">Terms & cordition</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column d-flex flex-column gap-2 text-white">
+              <h3 class="mb-5 h6">Contact</h3>
+              <div class="icons d-flex gap-4">
+                <a href="" class="text-secondary">
+                  <i class="fa fa-brands fa-instagram fa-xl"></i
+                ></a>
+                <a href="" class="text-secondary"
+                  ><i class="fa fa-brands fa-twitter fa-xl"></i
+                ></a>
+                <a href="" class="text-secondary"
+                  ><i class="fa fa-brands fa-facebook-square fa-xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-secondary opacity-50 pt-4 fs-6">
+          &copy; 2014 Nizami cinema. All Right Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
